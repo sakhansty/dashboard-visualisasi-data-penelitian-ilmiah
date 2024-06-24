@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+.background {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background-color:#fff399;
+    background-image:
+    radial-gradient(at 56% 36%, hsla(101,91%,73%,1) 0px, transparent 50%),
+    radial-gradient(at 77% 59%, hsla(92,71%,78%,1) 0px, transparent 50%),
+    radial-gradient(at 2% 17%, hsla(63,92%,66%,1) 0px, transparent 50%),
+    radial-gradient(at 9% 47%, hsla(249,81%,63%,1) 0px, transparent 50%)
+}
+
+.title {
+    width: 818px;
+    height: 176px;
+    position: absolute;
+    left: 311px;
+    top: 290px;
+    text-align: center;
+    color: black;
+    font-size: 80px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: italic ;
+    word-wrap: break-word;
+}
+
+.subtitle {
+    width: 536px;
+    height: 43px;
+    position: absolute;
+    left: 452px;
+    top: 395px; /* Adjusted top value to move closer to the title */
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: 'Inknut Antiqua';
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.decorative-bar {
+    width: 8px;
+    height: 3px;
+    position: absolute;
+    left: 813px;
+    top: 649px;
+    background: #D9D9D9;
+}
+
+.start-button {
+    width: 213px;
+    height: 59px;
+    position: absolute;
+    left: 613px;
+    top: 500px;
+    background: black;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.start-text {
+    color: white;
+    font-size: 30px;
+    font-family: 'Inter';
+    font-weight: 700;
+}
