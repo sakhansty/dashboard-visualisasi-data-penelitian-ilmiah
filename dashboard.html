@@ -11,15 +11,38 @@
             width: 100%;
             height: 100%;
             overflow: hidden;
+            display: flex;
+            flex-direction: column;
         }
         iframe {
-            width: 100%;
-            height: 100vh;
+            flex: 1;
             border: 0;
+        }
+        footer {
+            background-color: #000; /* Background hitam */
+            color: #fff; /* Teks putih terang */
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+        }
+        @media (max-width: 600px) {
+            footer {
+                font-size: 12px;
+                padding: 8px;
+            }
+        }
+        @media (max-width: 400px) {
+            footer {
+                font-size: 10px;
+                padding: 6px;
+            }
         }
     </style>
 </head>
 <body>
-    <iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/180e1d1a-18ec-4043-9c34-4d90284c9daf/page/Ia03D" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+    <iframe src="https://lookerstudio.google.com/embed/reporting/180e1d1a-18ec-4043-9c34-4d90284c9daf/page/Ia03D" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+    <footer>
+        &copy; 2024 Sakha Anistya . All rights reserved.
+    </footer>
 </body>
 </html>
